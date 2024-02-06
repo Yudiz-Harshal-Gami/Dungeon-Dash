@@ -1,0 +1,177 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/Image/arrows.png",
+                "frameConfig": {
+                    "frameWidth": 300,
+                    "frameHeight": 300,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "arrows"
+            },
+            {
+                "url": [
+                    "assets/audio/background-music.mp3"
+                ],
+                "type": "audio",
+                "key": "background-music"
+            },
+            {
+                "url": "assets/Image/button.png",
+                "type": "image",
+                "key": "button"
+            },
+            {
+                "url": [
+                    "assets/audio/click.mp3"
+                ],
+                "type": "audio",
+                "key": "click"
+            },
+            {
+                "url": [
+                    "assets/audio/destroyed.mp3"
+                ],
+                "type": "audio",
+                "key": "destroyed"
+            },
+            {
+                "url": "src/managers/Draw3.js",
+                "type": "script",
+                "key": "Draw3"
+            },
+            {
+                "url": "assets/Image/game-over-logo.png",
+                "type": "image",
+                "key": "game-over-logo"
+            },
+            {
+                "url": "src/scenes/Home.js",
+                "type": "sceneFile",
+                "key": "Home"
+            },
+            {
+                "url": "assets/Image/home-button.png",
+                "type": "image",
+                "key": "home-button"
+            },
+            {
+                "url": [
+                    "assets/audio/level_win.mp3"
+                ],
+                "type": "audio",
+                "key": "level_win"
+            },
+            {
+                "url": "assets/Image/level-stone.png",
+                "type": "image",
+                "key": "level-stone"
+            },
+            {
+                "url": "assets/Image/level-up-board.png",
+                "type": "image",
+                "key": "level-up-board"
+            },
+            {
+                "url": "assets/Image/main-board.png",
+                "type": "image",
+                "key": "main-board"
+            },
+            {
+                "url": "assets/Image/particle.png",
+                "type": "image",
+                "key": "particle"
+            },
+            {
+                "url": "assets/Image/play-next-button.png",
+                "type": "image",
+                "key": "play-next-button"
+            },
+            {
+                "url": "assets/Image/replay-game.png",
+                "type": "image",
+                "key": "replay-game"
+            },
+            {
+                "url": "assets/Image/score-stone.png",
+                "type": "image",
+                "key": "score-stone"
+            },
+            {
+                "url": "assets/Image/smoke/smoke1.png",
+                "type": "image",
+                "key": "smoke1"
+            },
+            {
+                "url": "assets/Image/smoke/smoke2.png",
+                "type": "image",
+                "key": "smoke2"
+            },
+            {
+                "url": "assets/Image/smoke/smoke3.png",
+                "type": "image",
+                "key": "smoke3"
+            },
+            {
+                "url": "assets/Image/smoke/smoke4.png",
+                "type": "image",
+                "key": "smoke4"
+            },
+            {
+                "url": "assets/Image/smoke/smoke5.png",
+                "type": "image",
+                "key": "smoke5"
+            },
+            {
+                "url": "assets/animation/smokeAnimation.json",
+                "type": "animation",
+                "key": "smokeAnimation"
+            },
+            {
+                "url": "src/managers/SoundManager.js",
+                "type": "script",
+                "key": "SoundManager"
+            },
+            {
+                "url": "assets/Image/stone.png",
+                "frameConfig": {
+                    "frameWidth": 100,
+                    "frameHeight": 100,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "stone"
+            },
+            {
+                "url": "assets/Image/target-stone.png",
+                "type": "image",
+                "key": "target-stone"
+            },
+            {
+                "url": "assets/Image/time-stone.png",
+                "type": "image",
+                "key": "time-stone"
+            },
+            {
+                "url": "src/managers/TweenManager.js",
+                "type": "script",
+                "key": "TweenManager"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "anims": [
+        {
+            "key": "smokeAnimation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "smoke1",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke3",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke4",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "smoke5",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "hideOnComplete": true
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

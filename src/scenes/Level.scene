@@ -1,0 +1,366 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "d530c294-e360-4170-a255-d83a275d74c1",
+            "label": "container_game_play",
+            "scope": "CLASS",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "8ce6bf1e-225d-4234-a913-7a29d3db2bb9",
+                    "label": "dark_background",
+                    "components": [],
+                    "texture": {
+                        "key": "dark-background"
+                    },
+                    "x": 540,
+                    "y": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "59d7c2fb-aa8b-47e5-9f48-79bab60a7cca",
+                    "label": "score_stone",
+                    "components": [],
+                    "texture": {
+                        "key": "score-stone"
+                    },
+                    "x": 200,
+                    "y": 1824
+                },
+                {
+                    "type": "Text",
+                    "id": "aa0d7bfa-3548-4eb6-b1bc-f5cf0bc2c566",
+                    "label": "txtScore",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 200,
+                    "y": 1873,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fontFamily": "MarkerFelt",
+                    "fontSize": "50px"
+                },
+                {
+                    "type": "Image",
+                    "id": "3cc0b97c-d064-48da-a01e-a6cb2e95959c",
+                    "label": "time_stone",
+                    "components": [],
+                    "texture": {
+                        "key": "time-stone"
+                    },
+                    "x": 540,
+                    "y": 1804
+                },
+                {
+                    "type": "Text",
+                    "id": "bb54d383-fffb-4808-a486-b0a9e5d4ccdf",
+                    "label": "txtTimer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 540,
+                    "y": 1873,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "fontFamily": "MarkerFelt",
+                    "fontSize": "50px"
+                },
+                {
+                    "type": "Image",
+                    "id": "949427a3-b00c-430d-8c57-f54e6a10f288",
+                    "label": "level_stone",
+                    "components": [],
+                    "texture": {
+                        "key": "level-stone"
+                    },
+                    "x": 540,
+                    "y": 96
+                },
+                {
+                    "type": "Text",
+                    "id": "238972d9-0ae1-4894-977c-264ba7822a6c",
+                    "label": "txtCurrentLevel",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 540,
+                    "y": 132,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fontFamily": "MarkerFelt",
+                    "fontSize": "60px"
+                },
+                {
+                    "type": "Image",
+                    "id": "15d3e038-1395-4a81-893f-7da9ea7904ab",
+                    "label": "target_stone",
+                    "components": [],
+                    "texture": {
+                        "key": "target-stone"
+                    },
+                    "x": 880,
+                    "y": 1824
+                },
+                {
+                    "type": "Text",
+                    "id": "f50a4d7a-a8d9-4ec8-8ae7-737d4a7d429a",
+                    "label": "txtTarget",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 880,
+                    "y": 1873,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "fontFamily": "MarkerFelt",
+                    "fontSize": "50px"
+                },
+                {
+                    "type": "Image",
+                    "id": "126eeb13-d061-4d98-b866-b617fcd01518",
+                    "label": "main_board",
+                    "components": [],
+                    "texture": {
+                        "key": "main-board"
+                    },
+                    "x": 540,
+                    "y": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "6f2a2d21-6957-479b-a42b-d2be8fd21da8",
+                    "label": "home_button",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "home-button"
+                    },
+                    "x": 105,
+                    "y": 102,
+                    "scaleX": 0.7,
+                    "scaleY": 0.7
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "0af98181-6ad6-49c3-b566-3214a5335c25",
+            "label": "container_Time_Over",
+            "scope": "CLASS",
+            "components": [],
+            "x": 540,
+            "y": 960,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "e9778684-24e6-4628-942a-ab8fc18b7d3c",
+                    "label": "dark_background_time_over",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "dark-background"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "e430404b-8e74-4208-941b-d9cdfeae05c5",
+                    "label": "home_button_time_over",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "home-button"
+                    },
+                    "y": 727
+                },
+                {
+                    "type": "Image",
+                    "id": "d7d2ce69-e972-4532-a3f8-35187e6187f7",
+                    "label": "btnRestartLevel",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "button"
+                    },
+                    "y": 483
+                },
+                {
+                    "type": "Text",
+                    "id": "81509fdc-ebc7-4922-8dff-f17d295757d8",
+                    "label": "txtRestartLevel",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": 479,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Reset Level",
+                    "fontFamily": "MarkerFelt",
+                    "fontSize": "55px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "92ed647e-5d61-4983-9656-509b9a7ea6c6",
+                    "label": "btnPlayAgain",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "button"
+                    },
+                    "y": 220
+                },
+                {
+                    "type": "Text",
+                    "id": "b76b448c-918c-4e4a-a6c9-10e21a5d7ab7",
+                    "label": "txtPlayAgain",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": 214,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Play Again",
+                    "fontFamily": "MarkerFelt",
+                    "fontSize": "55px",
+                    "color": "#ffffffff"
+                },
+                {
+                    "type": "Image",
+                    "id": "af01066b-d952-486e-83e6-e1cd2161c6a2",
+                    "label": "game_over_logo",
+                    "components": [],
+                    "texture": {
+                        "key": "game-over-logo"
+                    },
+                    "y": -495
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "985efd34-a776-4ee1-ae0b-c19fa866a84b",
+            "label": "container_Level_Up",
+            "scope": "CLASS",
+            "components": [],
+            "x": 540,
+            "y": 960,
+            "visible": false,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "20e4c3d2-35f2-4fd6-97b6-5981f2eb1da1",
+                    "label": "dark_background_level_up",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "dark-background"
+                    }
+                },
+                {
+                    "type": "Image",
+                    "id": "6e8d62ef-147c-471d-9f14-27c0083daa5d",
+                    "label": "level_up_board",
+                    "components": [],
+                    "texture": {
+                        "key": "level-up-board"
+                    },
+                    "x": -17,
+                    "y": -179
+                },
+                {
+                    "type": "Text",
+                    "id": "5c66ea7d-6c72-4159-b45b-6967141c4bb8",
+                    "label": "txtCurrentPopupLevel",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -12,
+                    "y": -197,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "1",
+                    "fontFamily": "MarkerFelt",
+                    "fontSize": "60px"
+                },
+                {
+                    "type": "Text",
+                    "id": "23e7889c-be61-4bf3-938e-e403b8bdbeea",
+                    "label": "txtPopupScore",
+                    "scope": "CLASS",
+                    "components": [],
+                    "y": 111,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "fontFamily": "MarkerFelt",
+                    "fontSize": "60px"
+                },
+                {
+                    "type": "Image",
+                    "id": "7b2423d2-2816-42b8-8eb2-29bed971a220",
+                    "label": "btnNextLevel",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "play-next-button"
+                    },
+                    "x": 210,
+                    "y": 342
+                },
+                {
+                    "type": "Image",
+                    "id": "9381f880-7699-48f6-8704-a4df03587e3c",
+                    "label": "btnReplayGame",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "replay-game"
+                    },
+                    "x": -210,
+                    "y": 342
+                },
+                {
+                    "type": "Image",
+                    "id": "3ac9b136-2877-4bef-b399-1634cf9e8696",
+                    "label": "home_button_level_up",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "home-button"
+                    },
+                    "y": 342
+                }
+            ]
+        },
+        {
+            "type": "Rectangle",
+            "id": "c8027c2f-4022-40e8-8ce1-47beac1ca894",
+            "label": "maskRectangle",
+            "scope": "CLASS",
+            "components": [],
+            "x": 85,
+            "y": 325,
+            "originX": 0,
+            "originY": 0,
+            "visible": false,
+            "isFilled": true,
+            "width": 910,
+            "height": 1267
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

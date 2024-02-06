@@ -1,0 +1,117 @@
+{
+    "id": "04331fb6-ed91-4d74-b6e9-4bfe0fcfb457",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadMethodName": "editorPreload",
+        "preloadPackFiles": [
+            "starter-template-basic-typescript/assets/asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Preload",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "077a8ded-75e9-44b3-85c5-965a4d7fa6a5",
+            "label": "dark_background",
+            "components": [],
+            "texture": {
+                "key": "dark-background"
+            },
+            "x": 540,
+            "y": 960
+        },
+        {
+            "type": "Text",
+            "id": "2ce42443-5227-4c9b-b498-e81f9a21cde3",
+            "label": "progress",
+            "scope": "CLASS",
+            "components": [],
+            "x": 540,
+            "y": 1521,
+            "originX": 0.5,
+            "originY": 0.5,
+            "visible": false,
+            "fontFamily": "MarkerFelt",
+            "fontSize": "50px"
+        },
+        {
+            "type": "Image",
+            "id": "ce3d37c6-7c2d-4205-8476-b2c78878c011",
+            "label": "dungeon_dash_logo_new",
+            "components": [],
+            "texture": {
+                "key": "dungeon-dash-logo-new"
+            },
+            "x": 577,
+            "y": 440,
+            "scaleX": 1.3,
+            "scaleY": 1.3
+        },
+        {
+            "type": "Image",
+            "id": "8751c31b-7434-4bfc-b030-b48dffd814c3",
+            "label": "blue_gem",
+            "components": [],
+            "texture": {
+                "key": "blue-gem"
+            },
+            "x": 267,
+            "y": 547,
+            "scaleX": 1.2,
+            "scaleY": 1.2,
+            "angle": -27
+        },
+        {
+            "type": "Image",
+            "id": "370758f8-c5e3-4211-b2e8-ee6f0c386847",
+            "label": "purple_gem",
+            "components": [],
+            "texture": {
+                "key": "purple-gem"
+            },
+            "x": 754,
+            "y": 636,
+            "scaleX": 1.3,
+            "scaleY": 1.3,
+            "angle": 26
+        },
+        {
+            "type": "Image",
+            "id": "d5971f1e-5d4d-4b3b-b3fa-af12fe33a022",
+            "label": "red_gem",
+            "components": [],
+            "texture": {
+                "key": "red-gem"
+            },
+            "x": 474,
+            "y": 260,
+            "scaleX": 1.3,
+            "scaleY": 1.3,
+            "angle": 23
+        },
+        {
+            "type": "Image",
+            "id": "bf417f1a-815c-47de-a0a9-3c9cc0178542",
+            "label": "yellow_gem",
+            "components": [],
+            "texture": {
+                "key": "yellow-gem"
+            },
+            "x": 568,
+            "y": 258,
+            "scaleX": 1.3,
+            "scaleY": 1.3,
+            "angle": -13
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/Image/backgound.png",
+                "type": "image",
+                "key": "backgound"
+            },
+            {
+                "url": "assets/Image/gems/blue-gem.png",
+                "type": "image",
+                "key": "blue-gem"
+            },
+            {
+                "url": "assets/Image/dark-background.png",
+                "type": "image",
+                "key": "dark-background"
+            },
+            {
+                "url": "assets/Image/dungeon-dash-logo-new.png",
+                "type": "image",
+                "key": "dungeon-dash-logo-new"
+            },
+            {
+                "url": "assets/Image/dungeon-raid-logo.png",
+                "type": "image",
+                "key": "dungeon-raid-logo"
+            },
+            {
+                "url": "assets/Image/hanging-skulls.png",
+                "type": "image",
+                "key": "hanging-skulls"
+            },
+            {
+                "url": "assets/Image/loading.png",
+                "type": "image",
+                "key": "loading"
+            },
+            {
+                "url": "assets/Image/loading-bar.png",
+                "type": "image",
+                "key": "loading-bar"
+            },
+            {
+                "url": "assets/Image/gems/purple-gem.png",
+                "type": "image",
+                "key": "purple-gem"
+            },
+            {
+                "url": "assets/Image/gems/red-gem.png",
+                "type": "image",
+                "key": "red-gem"
+            },
+            {
+                "url": "assets/Image/gems/yellow-gem.png",
+                "type": "image",
+                "key": "yellow-gem"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "id": "18813263-db55-4fa2-aa84-d954683a1e20",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Home",
+        "borderWidth": 1080,
+        "borderHeight": 1920
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "88985a2a-1329-4075-a6c5-56b85218704c",
+            "label": "dark_background",
+            "components": [],
+            "texture": {
+                "key": "dark-background"
+            },
+            "x": 540,
+            "y": 960
+        },
+        {
+            "type": "Image",
+            "id": "92f86ca7-6d53-45e9-b36d-738cd98bae3d",
+            "label": "btnPlayGame",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "button"
+            },
+            "x": 540,
+            "y": 1369
+        },
+        {
+            "type": "Text",
+            "id": "af1988a7-ea46-4c98-b22a-1d09694fbb2e",
+            "label": "txtPlayGame",
+            "scope": "CLASS",
+            "components": [],
+            "x": 540,
+            "y": 1362,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Start Game",
+            "fontFamily": "MarkerFelt",
+            "fontSize": "57px"
+        },
+        {
+            "type": "Image",
+            "id": "e26eefa7-80db-4bb3-b6ea-a2fe9dbbf80a",
+            "label": "dungeon_dash_logo_new",
+            "components": [],
+            "texture": {
+                "key": "dungeon-dash-logo-new"
+            },
+            "x": 577,
+            "y": 440,
+            "scaleX": 1.3,
+            "scaleY": 1.3
+        },
+        {
+            "type": "Image",
+            "id": "5bc94286-c44b-4cff-818f-d6da5fb32e47",
+            "label": "yellow_gem",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "yellow-gem"
+            },
+            "x": 568,
+            "y": 258,
+            "scaleX": 1.3,
+            "scaleY": 1.3,
+            "angle": -13
+        },
+        {
+            "type": "Image",
+            "id": "59aa5352-0bbf-46d4-bdc5-44d95c8c5ec9",
+            "label": "red_gem",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "red-gem"
+            },
+            "x": 474,
+            "y": 260,
+            "scaleX": 1.3,
+            "scaleY": 1.3,
+            "angle": 23
+        },
+        {
+            "type": "Image",
+            "id": "f24b4e74-88e3-43e4-8a1c-4f7f7d9be637",
+            "label": "purple_gem",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "purple-gem"
+            },
+            "x": 754,
+            "y": 636,
+            "scaleX": 1.3,
+            "scaleY": 1.3,
+            "angle": 26
+        },
+        {
+            "type": "Image",
+            "id": "8a2f33bb-3f1b-463c-8153-5ef074beaec8",
+            "label": "blue_gem",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "blue-gem"
+            },
+            "x": 267,
+            "y": 547,
+            "scaleX": 1.2,
+            "scaleY": 1.2,
+            "angle": -27
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

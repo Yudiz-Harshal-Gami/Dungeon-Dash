@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Dungeon Dash</title>
+
+	<link rel="stylesheet preload" as="font" href="assets/font/MarkerFelt.ttc" type="font/ttf" crossorigin />
+
+	<link rel="icon" type="image/x-icon" href="assets/Image/dungeon-raid-logo.ico">
+	<script src="lib/phaser.min.js"></script>
+	<script src="src/components/UserComponent.js"></script>
+	<script src="src/components/PushOnClick.js"></script>
+	<script src="src/components/PreloadText.js"></script>
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/scenes/Level.js"></script>
+	<script src="src/main.js"></script>
+
+	<style>
+		@font-face {
+			font-family: 'MarkerFelt';
+			src: url('assets/font/MarkerFelt.ttc');
+		}
+
+		body { background: url(./assets/Image/backgound.png) no-repeat; background-position: center center; background-size: cover; margin: 0; padding: 0; overflow: hidden; }
+		canvas { z-index: 10; position: relative; }
+		.fire-1, .fire-2 { position: absolute; top: 35%; display: flex; justify-content: center; align-items: center; width: fit-content; background: red; z-index: 5; }
+		.fire-1 img, .fire-2 img { position: absolute; max-width: 250px; }
+		.fire-1 { left: 20%; }
+		.fire-2 { right: 20%; }
+
+		/* @media (min-width: 1400px) and (max-width : 1599px) {} */
+
+		@media (min-width: 1200px) and (max-width : 1399px) {
+			.fire-1 img, .fire-2 img { max-width: 230px; }
+			.fire-1 { left: 16%; }
+			.fire-2 { right: 16%; }
+		}
+
+		@media (min-width: 992px) and (max-width : 1199px) {
+			.fire-1 img, .fire-2 img { max-width: 200px; }
+			.fire-1 { left: 10%; }
+			.fire-2 { right: 10%; }
+		}
+
+		@media (min-width: 768px) and (max-width : 991px) {
+			.fire-1 img, .fire-2 img { max-width: 170px; }
+			.fire-1 { left: 13%; }
+			.fire-2 { right: 13%; }
+		}
+
+		@media (max-width : 767px) {
+			.fire-1, .fire-2 { display: none; }
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="fire-1">
+		<img class="red-shadow" src="./assets/Image/fire/red-shadow.png" alt="">
+		<img class="orange-shadow" src="./assets/Image/fire/orange-shadow.png" alt="">
+		<img class="fire-gif" src="./assets/Image/fire/fire.gif" alt="">
+	</div>
+	<div class="fire-2">
+		<img class="red-shadow" src="./assets/Image/fire/red-shadow.png" alt="">
+		<img class="orange-shadow" src="./assets/Image/fire/orange-shadow.png" alt="">
+		<img class="fire-gif" src="./assets/Image/fire/fire.gif" alt="">
+	</div>
+
+</body>
+
+</html>
